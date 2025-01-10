@@ -51,4 +51,4 @@ var isAnagram = function(test, original) {
     else{
      return false 
     }
-};
+}
