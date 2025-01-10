@@ -43,9 +43,9 @@ function oddOrEven(array) {
 }
 
 var isAnagram = function(test, original) {
-    var t = test.toLowerCase().split('').sort().join('');
-    var o = original.toLowerCase().split('').sort().join('');
-    if (t == o){
+    var a = test.toLowerCase().split('').sort().join('');
+    var b = original.toLowerCase().split('').sort().join('');
+    if (a == b){
       return true
     }
     else{
